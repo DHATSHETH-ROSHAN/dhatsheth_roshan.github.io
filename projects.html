@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhatsheth_roshan/Projects</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF5EE;
+            color: #333;
+        }
+        nav {
+            background-color: #539987;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav .links {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        nav .name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: white;
+        }
+        .container {
+            padding: 30px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .project img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-right: 2px solid #ddd;
+        }
+        .project-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .project-content h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #2c3e50;
+        }
+        .project-content p {
+            margin: 0;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .pagination a {
+            text-decoration: none;
+            margin: 0 5px;
+            padding: 10px 20px;
+            background-color: #539987;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .pagination a:hover {
+            background-color: #1abc9c;
+        }
+        footer {
+            background-color: #539987;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #050330;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="index.html">
+        <div class="name">DHATSHETH ROSHAN</div></a>
+    </nav>
+
+    <div class="container">
+        <h2 style="text-align:center; margin-bottom: 30px;">My Projects</h2>
+
+        <!-- Project 1 -->
+        <a href="https://github.com/yourgithubusername/project3" target="_blank" class="project">
+            <img src="weather.png" alt="Project 3">
+            <div class="project-content">
+                <h3>Weather Display App</h3>
+                <p>Created a Python-based weather app using APIs like OpenWeatherMap to display real-time weather data and location-based alerts.</p>
+            </div>
+        </a>
+
+
+        <!-- Project 2 -->
+        <a href="https://github.com/yourgithubusername/project2" target="_blank" class="project">
+            <img src="power-bi logo.png" alt="Project 2">
+            <div class="project-content">
+                <h3>Power BI Sales Dashboard</h3>
+                <p>Analyzed sales data from Kaggle and built an interactive dashboard to identify trends and provide actionable insights for business strategies.</p>
+            </div>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="https://github.com/yourgithubusername/project1" target="_blank" class="project">
+            <img src="ibm.jpeg" alt="Project 1">
+            <div class="project-content">
+                <h3>IBM Capstone Project</h3>
+                <p>Developed an AI-powered traffic optimization system using Python and machine learning techniques to reduce congestion in simulations.</p>
+            </div>
+        </a>
+
+
+        <!-- Project 4 -->
+        <a href="https://github.com/yourgithubusername/project1" target="_blank" class="project">
+            <img src="sts.png" alt="Project 1">
+            <div class="project-content">
+                <h3>Smart Traffic Light System</h3>
+                <p>Developed an AI-powered traffic optimization system using Python and machine learning techniques to reduce congestion in simulations.</p>
+            </div>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="https://github.com/yourgithubusername/project4" target="_blank" class="project">
+            <img src="inventory mang.png" alt="Project 4">
+            <div class="project-content">
+                <h3>Inventory Management System</h3>
+                <p>Designed and implemented a Python-based system for managing inventory with real-time updates and predictive analytics.</p>
+            </div>
+        </a>
+
+        <!-- Add more projects here -->
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <a href="projects-page1.html">1</a>
+            <a href="projects-page2.html">2</a>
+            <!-- Add more page links as needed -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dhatsheth_Roshan. All Rights Reserved. <a href="#"><strong> Back to top</strong></a></p>
+    </footer>
+</body>
+</html>
